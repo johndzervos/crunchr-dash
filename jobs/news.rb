@@ -4,9 +4,8 @@ require 'nokogiri'
 require 'htmlentities'
 
 news_feeds = {
-  "bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml",
+  # "bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml",
   "mashable" => "http://feeds.feedburner.com/Mashable",
-  "techcrunch" => "http://feeds.feedburner.com/TechCrunch/",
   "expatica" => "https://www.expatica.com/module/system/action/rss?type=1&ctr=47&ch=166",
 }
 
