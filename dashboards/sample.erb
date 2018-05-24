@@ -2,7 +2,7 @@
 $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
   Dashing.widget_base_dimensions = [370, 340]
-  Dashing.numColumns = 6
+  Dashing.numColumns = 5
 });
 </script>
 
@@ -24,11 +24,11 @@ $(function() {
       <i class="fa fa-clock-o icon-background"></i>
     </li>
 
-    <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
-      <div data-id="quote" data-view="Quote"></div>
-    </li>
+    # <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+    #   <div data-id="quote" data-view="Quote"></div>
+    # </li>
 
-    <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
       <div data-view="Image" data-image="/crunchr.jpg"></div>
     </li>
 
@@ -56,13 +56,13 @@ $(function() {
 
     <li data-row="2" data-col="4" data-sizex="2" data-sizey="2">
       <div>
-        <iframe width="750" height="690" src="https://www.youtube.com/embed/videoseries?list=PLTwVRps7UE4wtkSC9dQ43_ixLB3e3f93g&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="750" height="690" src="https://www.youtube.com/embed/videoseries?list=PLTwVRps7UE4wtkSC9dQ43_ixLB3e3f93g&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe>
       </div>
     </li>
 
-    <li data-row="2" data-col="5" data-sizex="1" data-sizey="2">
-      <div data-id="server_status" data-view="ServerStatus" data-title="Server Status"></div>
-    </li>
+    # <li data-row="2" data-col="5" data-sizex="1" data-sizey="2">
+    #   <div data-id="server_status" data-view="ServerStatus" data-title="Server Status"></div>
+    # </li>
 
     <li data-row="4" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="twitter_mentions" data-view="Comments" style="background-color:#00afd7;" data-moreinfo="Tweets tagged with #HRTech"></div>
