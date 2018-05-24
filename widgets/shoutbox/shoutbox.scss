@@ -1,0 +1,69 @@
+// ----------------------------------------------------------------------------
+// Mixins
+// ----------------------------------------------------------------------------
+@mixin transition($transition-property, $transition-time, $method) {
+  -webkit-transition: $transition-property $transition-time $method;
+  -moz-transition: $transition-property $transition-time $method;
+  -o-transition: $transition-property $transition-time $method;
+  transition: $transition-property $transition-time $method;
+}
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: #000000;
+$title-color: rgba(255, 255, 255, 0.7);
+$message-color: rgba(255, 255, 255, 0.7);
+$type-color: rgba(0, 0, 0, 0.3);
+$updated-at-color: rgba(0, 0, 0, 0.3);
+
+// ----------------------------------------------------------------------------
+// Widget-status styles
+// ----------------------------------------------------------------------------
+.widget-shoutbox {
+
+  background-color: $background-color;
+  @include transition(background-color, 1s, linear);
+
+  .title {
+    color: $title-color;
+    margin-bottom: 10px;
+  }
+
+  .message {
+    color: $message-color;
+    font-size: 30px;
+  }
+
+  .type {
+    color: $type-color;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .updated-at {
+    color: $updated-at-color;
+    font-size: 15px;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+  }
+
+}
+
+.shoutbox-alarm { background-color: #FF003C; }
+.shoutbox-alert { background-color: #FF003C; }
+.shoutbox-angry { background-color: #FF0000; }
+.shoutbox-black { background-color: #000000; }
+.shoutbox-birthday { background-color: #FABE28; }
+.shoutbox-celebrating { background-color: #FABE28; }
+.shoutbox-christmas { background-color: #FABE28; }
+.shoutbox-funny { background-color: #B76EB8; }
+.shoutbox-happy { background-color: #7ABA7A; }
+.shoutbox-neutral { background-color: #00C176; }
+.shoutbox-love { background-color: #FF0080; }
+.shoutbox-white { background-color: #FFFFFF; }

@@ -5,5 +5,6 @@ gem 'json'
 gem 'nokogiri'
 gem 'htmlentities'
 gem 'google-api-client', '>= 0.8'
+gem 'json'
 ## Remove this if you don't need a twitter widget.
 gem 'twitter', '>= 5.9.0'
