@@ -2,6 +2,7 @@
 # red = Monthly meetup
 # blue = Focus Orange Weekend
 # green = Sprint retro
+# orange = Training
 
 events:
   - name: "Monthly meetup May"
@@ -10,9 +11,15 @@ events:
   - name: "Sprint 34 Retro"
     date: "June 1, 2018"
     background: "green"
+  - name: "Feedback Training Session I"
+    date: "June 11, 2018"
+    background: "orange"
   - name: "Sprint 35 Retro"
     date: "June 15, 2018"
     background: "green"
+  - name: "Feedback Training Session II"
+    date: "June 18, 2018"
+    background: "orange"
   - name: "Monthly meetup June"
     date: "June 29, 2018"
     background: "red"
