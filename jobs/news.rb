@@ -7,6 +7,7 @@ news_feeds = {
   # "bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml",
   "mashable" => "http://feeds.feedburner.com/Mashable",
   "expatica" => "https://www.expatica.com/module/system/action/rss?type=1&ctr=47&ch=166",
+  "iamexpat" => "https://www.iamexpat.nl/rss/news-netherlands/news",
 }
 
 Decoder = HTMLEntities.new
