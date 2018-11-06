@@ -10,7 +10,7 @@ twitter = Twitter::REST::Client.new do |config|
   config.access_token_secret = 'Pl976pBn8gYtaNvlGmrSO9C0tXjZLoXWoPvYFOwTotrjJ'
 end
 
-search_term = URI::encode('#HRTech')
+search_term = URI::encode('Crunchr')
 
 SCHEDULER.every '10m', :first_in => 0 do |job|
   begin
