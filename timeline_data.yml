@@ -89,7 +89,7 @@ events:
     background: "red"
   - name: "Python Meetup @ Crunchr"
     date: "May 16, 2019"
-    background: "red"
+    background: "white"
   - name: "Monthly meetup June"
     date: "Jun 7, 2019"
     background: "red"
